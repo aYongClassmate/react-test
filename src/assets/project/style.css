@@ -1,0 +1,256 @@
+*{
+    font-family: "微软雅黑";
+    /*font-size:.8em;*/
+}
+.theme{
+    color:#0196B6;
+    padding-bottom:5px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px auto ;
+    border-bottom:3px solid #0196B6
+}
+.important{
+    color: #ED6A1A;
+}
+.container-fluid{
+    text-align: center;
+}
+.pink{
+    background-color:#FBDBD0 ;
+    position: absolute;
+    right: 0;
+    /*bottom: 0;*/
+    top:0;
+    height: 100%;
+}
+.navbar-static-top {
+    margin-bottom: 0px;
+}
+.banxin{
+    width: 78%;
+    margin: 0 auto;
+    /*background-color: palegoldenrod;*/
+}
+.Module{
+    /*background-color: palegreen;*/
+    padding: 20px 50px;
+}
+html{
+    font-size: .7rem;
+}
+.Column{
+    background-color:#F3F8FB ;
+}
+.status{
+    position: relative;
+}
+.contentPic{
+    margin-top:20px ;
+}
+.fl-right{
+    float: right;
+}
+.fl-left{
+    float: left;
+}
+.footer{
+    background-color:#595959 ;
+    color: white;
+}
+.quartercircle {
+    width: 53px;
+    height: 106px;
+    background-color: #efefef; /* Can be set to transparent */
+    color:#FFFFFF ;
+    -moz-box-shadow:2px 2px 5px #333333; -webkit-box-shadow:2px 2px 5px #333333; box-shadow:2px 2px 5px #333333;
+}
+.quartercircle.left>.text{
+    margin: 2rem 0;
+    text-align: right;
+    margin-right: .5rem;
+    color:#5E6367 ;
+}
+.quartercircle.left{
+    -webkit-border-radius: 100px 0 0 100px;
+
+}
+.quartercircle.right{
+    -webkit-border-radius:0 100px  100px 0;
+    background-color:#EDA38A;
+}
+.quartercircle.right>.text{
+    margin: 2rem 0;
+    text-align:left;
+
+    margin-left: .5rem;
+}
+.IndustryStatus{
+    padding: 0;
+}
+
+.DOmedia{
+    margin:4.7rem 0 ;
+    border:1px solid #aaaaaa;
+}
+@media screen and (max-width: 1300px) {
+
+    .banxin{
+        width: 100%;
+    }
+    .fl-left{
+
+        margin:0 auto;
+    }
+
+    .media-body{
+        display: none;
+        text-align:center;
+        margin:0 auto;;
+    }
+    #main{
+        /*width: 250px;*/
+        /*margin-left: -60px;*/
+        transform:scale(1.3,1.3);
+    }
+    .h_rpic{
+        float:right;
+    }
+
+}
+.media-body{
+    vertical-align: middle;
+    text-align: center;
+}
+.no_right{
+    float:none;
+}
+.DoDiv{
+    width:13.8rem;
+    height:4.5rem;
+    margin:0 auto 10px;
+    color: white;
+    line-height: 4.5rem;
+    font-size: 2rem;
+    background-color:#74CCDE ;
+}
+
+.DoNote{
+    text-align: left;
+    margin-top: 20px;
+}
+
+#app{
+    margin-top: 20rem;
+
+}
+.contentPic img{
+    margin: 0 auto;
+}
+.Copyright{
+    width: 100%;
+}
+.footer .content{
+    width: 75%;
+    margin: 0 auto;
+}
+.teamwork>div{
+    margin-top: 3rem;
+}
+.footer_link{
+    margin:10px 0px;
+    padding:20px 0px 10px 0px;
+    border-top:1px solid #aaaaaa;
+    border-bottom:1px solid #aaaaaa;
+    text-align:center;
+}
+.footer_link li{
+    display:inline-block;
+    text-align:center;
+    padding:0;
+    width:13%;
+}
+.footer_link li a{
+    color:white;
+    text-decoration:none;
+}
+.tmd{
+    width:50%;
+    float:left;
+}
+@media screen and (max-width:768px){
+    .DoLeftDiv{
+        margin: 0 auto;
+    }
+    #banxin1{
+        width:100%;
+    }
+    .h_left,.h_right{
+        width:100%;
+        padding:20px 14%;
+    }
+    .h_right{
+        background-color:#FBDBD0;
+    }
+    .h_left{
+        background-color:white;
+    }
+    .pink{
+        background:white;
+    }
+    .Module1{
+        padding:0;
+    }
+    .h_z{
+        display:none;
+    }
+    .h_zy{
+        display:inline-block;
+        width:100%;
+        /*float:right;*/
+        margin:0 auto;
+    }
+    .h_zyr{
+        display:inline-block;
+        /*width:auto;*/
+        width:100%;
+        margin:0 auto;
+        //float:left;
+    }
+    .no_right{
+        float:none;
+    }
+    .dis_inbl{
+        display:inline-block;
+        width:100%;
+        margin-bottom:1em;
+    }
+    .h_rpic{
+        float:right;
+        display: block;
+        width:100%;
+        margin:0 auto;
+        margin-bottom:1em;
+    }
+    .media-object{
+        display: block;
+        margin:0 auto;
+    }
+    .Module2{
+        padding:20px 10px;
+    }
+    #content2,#content3{
+        width:98%;
+    }
+    .footer_link li{
+        width:auto;
+    }
+    .Copyright{
+        display: none;
+    }
+    /*
+    .footer_link{
+         padding:2px 0px;
+         margin:2px 0px;
+     }*/
+}
